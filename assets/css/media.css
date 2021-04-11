@@ -1,0 +1,96 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.coming-box {
+		height: auto;
+	}
+
+	.ribbon {
+		margin-top: 20px;
+		top: 5%;
+	}
+
+	.play-button-box {
+		height: 200px;
+	}
+
+	.safety-tip-box {
+		padding: 10px 0;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.chat-box .coming {
+		margin: 150px 0 0 5%;
+	}
+
+	.safety-tip-box {
+		padding: 0;
+	}
+
+	.chat-box {
+		height: 700px;
+	}
+}
+
+/* Medium devices(sm) (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.safety-tip-box {
+		padding: 0;
+	}
+
+	.chat-box {
+		height: 600px;
+	}
+
+	.chat-box .coming {
+		margin: 150px 0 0 5%;
+	}
+
+	.coming h4 {
+		font-size: 26px;
+	}
+
+	.quote {
+		margin: 0;
+	}
+
+	.quote .quote__qut {
+		border: none;
+		padding: 1rem;
+	}
+
+	.quote .quote__person {
+		position: relative;
+	}
+
+	.game-button {
+		font-size: 12px;
+	}
+
+	.ribbon {
+		padding: 12px 30px;
+	}
+}
+
+/* Large devices(md) (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.safety-tip-box {
+		padding: 0;
+	}
+
+	.chat-box {
+		height: 700px;
+	}
+
+	.chat-box .coming {
+		margin: 100px 0 0 5%;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.chat-box .coming {
+		margin: 100px 0 0 5%;
+	}
+}
